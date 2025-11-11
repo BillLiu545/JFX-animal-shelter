@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=QueueInterface
+comment0.text=\n\ QueueInterface.java\ -\ implementation\ of\ the\ Queue\ ADT\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=newEntry
+comment1.target=void\ enqueue(java.lang.Object)
+comment1.text=\ Adds\ a\ new\ entry\ to\ the\ back\ of\ this\ queue\n\ \ \ @param\ newEntry\ -\ An\ object\ to\ be\ added\n
+comment2.params=
+comment2.target=java.lang.Object\ dequeue()
+comment2.text=\ Removes\ and\ returns\ the\ entry\ at\ the\ front\ of\ this\ queue\n\ \ \ @return\ The\ object\ at\ the\ front\ of\ the\ queue\n\ \ \ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\ before\ operation\n
+comment3.params=
+comment3.target=java.lang.Object\ getFront()
+comment3.text=\ Returns\ the\ entry\ at\ the\ front\ of\ this\ queue\n\ \ \ @return\ The\ object\ at\ the\ front\ of\ the\ queue\n\ \ \ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\ before\ operation\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\ Detects\ whether\ this\ queue\ is\ empty\n\ \ \ @returns\ TRUE\ if\ the\ queue\ is\ empty,\ FALSE\ otherwise\n
+comment5.params=
+comment5.target=void\ clear()
+comment5.text=Removes\ all\ entries\ from\ this\ queue.
+numComments=6

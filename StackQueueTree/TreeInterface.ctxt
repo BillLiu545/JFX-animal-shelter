@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TreeInterface
+comment0.text=\n\ TreeInterface.java\ -\ implementation\ of\ general\ tree\ ADT\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=java.lang.Object\ getRootData()
+comment2.params=
+comment2.target=int\ getHeight()
+comment3.params=
+comment3.target=int\ getNumberOfNodes()
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment5.params=
+comment5.target=void\ clear()
+numComments=6

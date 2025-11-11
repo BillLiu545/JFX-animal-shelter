@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SearchTreeInterface
+comment0.text=\n\ SearchTreeInterface.java\ -\ interface\ for\ a\ search\ tree\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=anEntry
+comment1.target=boolean\ contains(java.lang.Comparable)
+comment1.text=\ Searches\ for\ a\ specific\ entry\ in\ this\ tree\n\ \ @param\ anEntry\ -\ an\ object\ to\ be\ found\n\ \ @return\ -\ TRUE\ if\ the\ entry\ was\ found\ in\ the\ tree;\ FALSE\ otherwise\n
+comment2.params=anEntry
+comment2.target=java.lang.Comparable\ getEntry(java.lang.Comparable)
+comment2.text=\ Retrieves\ a\ specific\ entry\ in\ this\ tree\n\ \ @param\ anEntry\ -\ an\ object\ to\ be\ found\n\ \ @return\ either\ the\ object\ that\ was\ found\ in\ the\ tree\ or\ NULL\ if\ no\ such\ object\n\ \ \ \ exists\n
+comment3.params=anEntry
+comment3.target=java.lang.Comparable\ add(java.lang.Comparable)
+comment3.text=\ Adds\ a\ new\ entry\ to\ this\ tree\ if\ it\ does\ not\ match\ an\ existing\ object\ in\ the\ tree\n\ \ Otherwise\ replaces\ the\ existing\ object\ with\ the\ new\ entry\n\ \ @param\ anEntry\ -\ an\ object\ to\ be\ added\ to\ the\ tree\n\ \ @return\ Either\ null\ if\ anEntry\ was\ not\ in\ the\ tree\ but\ has\ been\ added,\ or\n\ \ \ \ \ the\ existing\ entry\ that\ matched\ the\ parameter\ and\ has\ been\ replaced\n
+comment4.params=anEntry
+comment4.target=java.lang.Comparable\ remove(java.lang.Comparable)
+comment4.text=\ Removes\ a\ specific\ entry\ from\ this\ tree\n\ \ @param\ anEntry\ -\ an\ object\ to\ be\ removed\ from\ the\ tree\n\ \ @return\ Either\ the\ object\ that\ was\ removed\ from\ the\ tree,\ or\ NULL\ if\ no\n\ \ \ \ such\ object\ exists\n
+comment5.params=
+comment5.target=java.util.Iterator\ getInorderIterator()
+comment5.text=\ Creates\ an\ iterator\ that\ traverses\ all\ entries\ in\ this\ tree\n\ \ @return\ AN\ iterator\ that\ provides\ sequential\ and\ ordered\ access\ to\ the\ entries\n\ \ \ \ \ in\ the\ tree\n
+numComments=6

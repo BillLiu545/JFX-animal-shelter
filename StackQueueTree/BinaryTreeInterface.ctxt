@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BinaryTreeInterface
+comment0.text=\n\ BinaryTreeInterface.java\ -\ interface\ for\ a\ Binary\ Tree\ ADT\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=rootData
+comment1.target=void\ setRootData(java.lang.Object)
+comment2.params=rootData\ leftTree\ rightTree
+comment2.target=void\ setTree(java.lang.Object,\ BinaryTreeInterface,\ BinaryTreeInterface)
+numComments=3

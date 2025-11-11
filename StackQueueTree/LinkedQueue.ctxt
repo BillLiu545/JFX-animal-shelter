@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=LinkedQueue
+comment1.params=
+comment1.target=LinkedQueue()
+comment2.params=newEntry
+comment2.target=void\ enqueue(java.lang.Object)
+comment2.text=\ Adds\ a\ new\ entry\ to\ the\ back\ of\ this\ queue\n\ \ \ @param\ newEntry\ -\ An\ object\ to\ be\ added\n
+comment3.params=
+comment3.target=java.lang.Object\ dequeue()
+comment3.text=\ Removes\ and\ returns\ the\ entry\ at\ the\ front\ of\ this\ queue\n\ \ \ @return\ The\ object\ at\ the\ front\ of\ the\ queue\n\ \ \ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\ before\ operation\n
+comment4.params=
+comment4.target=java.lang.Object\ getFront()
+comment4.text=\ Returns\ the\ entry\ at\ the\ front\ of\ this\ queue\n\ \ \ @return\ The\ object\ at\ the\ front\ of\ the\ queue\n\ \ \ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\ before\ operation\n
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\ Detects\ whether\ this\ queue\ is\ empty\n\ \ \ @returns\ TRUE\ if\ the\ queue\ is\ empty,\ FALSE\ otherwise\n
+comment6.params=
+comment6.target=void\ clear()
+comment6.text=Removes\ all\ entries\ from\ this\ queue.
+numComments=7
