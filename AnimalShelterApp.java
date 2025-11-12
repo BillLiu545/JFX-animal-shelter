@@ -11,7 +11,8 @@ import java.util.*;
 
 public class AnimalShelterApp extends Application
 {
-    private ObservableList<Pet> observable;
+    AnimalShelter shelter = new AnimalShelter();
+    private final ObservableList<Pet> observable = shelter.toObservableList();
     private LinkedList<Pet> adoptedPets = new LinkedList<>();
     public void start(Stage mainStage)
     {
@@ -23,10 +24,6 @@ public class AnimalShelterApp extends Application
         Scene scene = new Scene(root, 450,500);
         mainStage.setTitle("Animal Shelter");
         mainStage.setScene(scene);
-        
-        // Initialize our shelter
-        AnimalShelter shelter = new AnimalShelter();
-        observable = shelter.toObservableList();
         
         // Set up the main layout
         VBox mainLayout = new VBox();
@@ -153,6 +150,6 @@ public class AnimalShelterApp extends Application
     }
     public static void main(String[] args)
     {
-        
+        launch(args);
     }
 }
